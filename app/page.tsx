@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="flex items-center justify-between px-8 py-6 w-full">
         <div className="flex items-center gap-2">
           <Sparkles className="w-6 h-6 text-purple-400" />
-          <span className="text-xl font-bold tracking-tight">AdEngineer</span>
+          <span className="text-xl font-bold tracking-tight">A.D.Engineers</span>
         </div>
       </nav>
 
@@ -27,7 +27,7 @@ export default function Home() {
         </h1>
 
         <p className="text-lg md:text-xl text-gray-400 max-w-xl mb-12 leading-relaxed">
-          The ultimate platform for marketers and engineers to design, test, and deploy ad creatives at scale with AI.
+          ADEN provides innovative solutions in mechanical and thermal solid/liquid separation offering Centrifuges & Pumps on a global basis.
         </p>
 
         <div className="flex flex-col items-center gap-6 w-full sm:w-auto relative z-10">
@@ -42,7 +42,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full text-center py-8 text-sm text-gray-600 border-t border-white/10">
-        © {new Date().getFullYear()} AdEngineer Inc. All rights reserved.
+        © {new Date().getFullYear()} A.D.Engineers
       </footer>
     </div>
   );
