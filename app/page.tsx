@@ -31,23 +31,8 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col items-center gap-6 w-full sm:w-auto relative z-10">
-          <form className="flex w-full sm:w-auto max-w-sm relative">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="w-full sm:w-80 px-6 py-4 rounded-full bg-white/5 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500/50 backdrop-blur-md"
-              required
-            />
-            <button
-              type="button"
-              className="absolute right-2 top-2 bottom-2 px-6 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-colors flex items-center justify-center"
-            >
-              Join Waitlist
-            </button>
-          </form>
-
           <div className="flex flex-col items-center gap-2">
-            <span className="text-gray-500 text-sm">Or contact us directly</span>
+            <span className="text-gray-500 text-sm">Contact us directly</span>
             <a href="tel:+919316565097" className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 font-medium hover:bg-purple-500/20 hover:text-purple-200 transition-colors">
               📞 +91 93165 65097
             </a>
